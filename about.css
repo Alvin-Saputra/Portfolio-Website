@@ -1,0 +1,236 @@
+html {
+    scroll-behavior: smooth;
+    /* scrollbar-width: normal; */
+  }
+
+  html::-webkit-scrollbar{
+    width: 0.5vw;
+  }
+
+  html::-webkit-scrollbar-thumb{
+    background-color: aliceblue;
+    border-radius: 10px;
+  }
+
+  html::-webkit-scrollbar-track{
+    background-color: #1C1C1C;
+  }
+
+  body{
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans";
+    background-color: #1C1C1C!important; 
+    /* overflow-y: hidden; */
+  }
+  p{
+    font-family: "DM Sans", serif;
+  }
+
+  #header{
+    font-family: Poppins;
+      /* display: flex; */
+      /* align-items: center; */
+      /* justify-content: space-between; */
+      /* background-color: skyblue; */
+      /* margin: 5rem 10rem 0 10rem; */
+      margin-top: 5rem;
+
+
+  }
+
+  #header a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 1.15rem;
+  }
+
+  #header .nav-1{
+    /* background-color: salmon; */
+    padding-left: 7rem ;
+  }
+
+  #header .nav-2{
+    padding-right: 7rem;
+  }
+
+
+  #about{
+    padding-top: 5rem;
+  }
+
+  #about .bio-2 {
+
+    position: relative;
+    top:8rem;
+    right: 12rem;
+  }
+
+  #about .bio-2 h1{
+    font-family: "DM Serif Display", serif;
+    font-size: 6rem;
+    font-weight: 400;
+    color: aliceblue;
+    line-height: 6rem;
+  }
+
+
+#about .bio-1 img{
+    padding-left: 7rem;
+    width: 90%;
+    height: auto;
+    /* height: 100%; */
+    /* position: relative; */
+    /* padding-left: 150px; */
+}
+
+#about .bio-3{
+  
+padding-top: 7rem;
+ 
+}
+
+#about .bio-3 h1{
+  font-family: "DM Serif Display", serif;
+  font-size: 7.5rem;
+  color: aliceblue;
+  position: relative;
+  right: 7.5rem;
+}
+
+#about .bio-3 .bg {
+  /* position: relative;
+  left: 6rem; */
+  background-color: #148430;
+}
+
+#about .bio-3 p{
+  text-align: justify;
+
+  color: aliceblue;
+  padding: 3rem 6rem 6rem 6rem;
+}
+
+
+
+#skill .row-content-1 .content-text h1{
+  font-family: "DM Serif Display", serif;
+  font-size: 5rem;
+  color: aliceblue;
+
+}
+
+#skill .row-content-1 .content-text{
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+#skill .row-content-2 .content-text h4, p{
+  font-family: "DM Sans", serif;
+  color: aliceblue;
+}
+
+
+#skill .row-content-2 .content-text{
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+#contact .row-content-3 .content-text{
+  padding-top: 5rem;
+display: flex;
+justify-content: center;
+
+}
+
+
+
+
+#contact .row-content-3 .content-text h1{
+  font-family: "DM Serif Display", serif;
+  font-size: 5rem;
+  color: aliceblue;
+
+}
+
+#contact .row-content-4 a{
+  text-decoration: none;
+  color: aliceblue;
+  padding: 3rem 3rem 3rem 3rem;
+}
+
+
+
+#contact .row-content-4 .content-icon{
+  /* background-color: #148430; */
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* laptop */
+@media (max-width: 1200px){
+
+}
+
+
+@media (max-width: 768px){
+  html{
+    font-size: 70%;
+}
+
+#about .bio-1 img{
+  /* padding-left: 7rem; */
+  width: 90%;
+  height: auto;
+  /* height: 100%; */
+  /* position: relative; */
+  /* padding-left: 150px; */
+}
+
+}
+
+/* HP */
+@media (max-width: 576px){
+  html{
+    font-size: 60%;
+}
+
+#about .bio-2 h1{
+  font-size: 4.3rem;
+  position: relative;
+  line-height: 4rem ;
+  /* right: 1rem; */
+  left: 4rem;
+}
+
+#about .bio-3 h1{
+  font-size: 5rem;
+  position: relative;
+  line-height: 5rem;
+  right: 3rem;
+}
+
+#about .bio-3 p{
+  text-align: justify;
+  color: aliceblue;
+  padding: 1rem 4rem 4rem 4rem;
+}
+
+#contact .nav-2{
+  padding-right: 6rem;
+}
+
+
+}
